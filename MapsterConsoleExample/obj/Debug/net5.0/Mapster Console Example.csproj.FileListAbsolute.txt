@@ -1,0 +1,19 @@
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster Console Example.exe
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster Console Example.deps.json
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster Console Example.runtimeconfig.json
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster Console Example.runtimeconfig.dev.json
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster Console Example.dll
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\ref\Mapster Console Example.dll
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster Console Example.pdb
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster.Core.dll
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.csproj.AssemblyReference.cache
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.AssemblyInfoInputs.cache
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.AssemblyInfo.cs
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.csproj.CoreCompileInputs.cache
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.csproj.CopyComplete
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.dll
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\ref\Mapster Console Example.dll
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.pdb
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\obj\Debug\net5.0\Mapster Console Example.genruntimeconfig.cache
+C:\Users\Viacheslav_Fesenko\RiderProjects\Mapster Console Example\Mapster Console Example\bin\Debug\net5.0\Mapster.dll

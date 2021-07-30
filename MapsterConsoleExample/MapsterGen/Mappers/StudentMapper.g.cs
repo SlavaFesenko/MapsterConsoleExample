@@ -1,4 +1,7 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using Mapster.Utils;
 using MapsterConsoleExample.Domains;
 using MapsterConsoleExample.Dtos;
@@ -8,27 +11,47 @@ namespace MapsterConsoleExample.MapsterGen.Mappers
 {
     public partial class StudentMapper : IStudentMapper
     {
+        private RuntimeMethodInfo RuntimeMethodInfo1;
+        
         public StudentDto MapToDto(Student p1)
         {
-            return p1 == null ? null : new StudentDto()
-            {
-                Id = p1.Id,
-                LastNameModified = p1.LastName,
-                GradeString = Enum<Grade>.ToString(p1.GradeString),
-                GradeInt = (int)p1.GradeInt,
-                Enrollments = funcMain1(p1.Enrollments)
-            };
-        }
-        
-        private ICollection<EnrollmentDto> funcMain1(ICollection<Enrollment> p2)
-        {
-            if (p2 == null)
+            if (p1 == null)
             {
                 return null;
             }
-            ICollection<EnrollmentDto> result = new List<EnrollmentDto>(p2.Count);
+            StudentDto result = new StudentDto();
             
-            IEnumerator<Enrollment> enumerator = p2.GetEnumerator();
+            result.Id = p1.Id;
+            
+            if (p1.LastName.Where<char>((Func<char, bool>)RuntimeMethodInfo1.CreateDelegate(typeof(Func<char, bool>), null)) != null)
+            {
+                result.LastNameModified = funcMain1(p1.LastName.Where<char>((Func<char, bool>)RuntimeMethodInfo1.CreateDelegate(typeof(Func<char, bool>), null)));
+            }
+            result.GradeString = Enum<Grade>.ToString(p1.GradeString);
+            result.GradeInt = (int)p1.GradeInt;
+            
+            if (p1.Enrollments != null)
+            {
+                result.Enrollments = funcMain2(p1.Enrollments);
+            }
+            return result;
+            
+        }
+        
+        private string funcMain1(IEnumerable<char> p2)
+        {
+            return p2 == null ? null : p2.ToString();
+        }
+        
+        private ICollection<EnrollmentDto> funcMain2(ICollection<Enrollment> p3)
+        {
+            if (p3 == null)
+            {
+                return null;
+            }
+            ICollection<EnrollmentDto> result = new List<EnrollmentDto>(p3.Count);
+            
+            IEnumerator<Enrollment> enumerator = p3.GetEnumerator();
             
             while (enumerator.MoveNext())
             {

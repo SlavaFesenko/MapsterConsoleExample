@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mapster" Version="7.2.0" />
+    </ItemGroup>
+
+    <!-- Commands sequence for Mapster-generation call: "dotnet msbuild -t:Mapster" (for details see https://github.com/MapsterMapper/Mapster/wiki/Mapster.Tool) -->
+    <!-- WARNING: if extensions have only empty shell, run command again -->
+    <Target Name="Mapster">
+        <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet build" />
+        <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet tool restore" />
+        <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet mapster model -a &quot;$(TargetDir)$(ProjectName).dll&quot; -n &quot;$(RootNamespace)&quot;.MapsterGen.Models -o MapsterGen/Models" />
+        <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet mapster extension -a &quot;$(TargetDir)$(ProjectName).dll&quot; -n &quot;$(RootNamespace)&quot;.MapsterGen.Extensions -o MapsterGen/Extensions" />
+        <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet mapster mapper -a &quot;$(TargetDir)$(ProjectName).dll&quot; -n &quot;$(RootNamespace)&quot;.MapsterGen.Mappers -o MapsterGen/Mappers" />
+    </Target>
+
+    <!-- Command to delete Mapster's files: "dotnet msbuild -t:CleanMapsterGenerated" -->
+    <ItemGroup>
+        <Generated Include="**\*.g.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\EntitiesLib\EntitiesLib.csproj" />
+    </ItemGroup>
+    <Target Name="CleanMapsterGenerated">
+        <Delete Files="@(Generated)" />
+    </Target>
+
+</Project>

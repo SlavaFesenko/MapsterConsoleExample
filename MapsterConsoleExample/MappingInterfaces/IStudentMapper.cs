@@ -4,7 +4,7 @@ using MapsterConsoleExample.Dtos;
 
 namespace MapsterConsoleExample.MappingInterfaces
 {
-    [Mapper]
+    // [Mapper]
     public interface IStudentMapper
     {
         StudentDto MapToDto(Student student);

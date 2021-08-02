@@ -4,8 +4,8 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <!-- WARNING: this should be referenced even here -->
     <ItemGroup>
-        <PackageReference Include="Mapster" Version="7.2.0" />
         <PackageReference Include="Mapster.Core" Version="1.2.0" />
     </ItemGroup>
 

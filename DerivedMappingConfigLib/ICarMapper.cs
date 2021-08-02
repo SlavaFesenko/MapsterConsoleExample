@@ -3,7 +3,7 @@ using Mapster;
 
 namespace DerivedMappingConfigLib
 {
-    [Mapper]
+    // [Mapper]
     public interface ICarMapper
     {
         CarDto MapToDto(CarPoco carPoco);

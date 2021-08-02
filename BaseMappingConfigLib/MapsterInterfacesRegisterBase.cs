@@ -9,24 +9,6 @@ namespace BaseMappingConfigLib
         {
             config.NewConfig<CarPoco, CarDto>()
                 .Ignore(dto => dto.Name);
-            
-            // config.ForType<CarPoco, CarDto>()
-            //     .Ignore(dto => dto.SecondName);
-            
-           
-            
-           
         }
     }
-
-    // public static class ConfigExtensions
-    // {
-    //     public static TypeAdapterConfig TypeAdapterConfigExtension(this TypeAdapterConfig config)
-    //     {
-    //         return config.NewConfig<CarPoco, CarDto>()
-    //             .Ignore(dto => dto.Name);
-    //
-    //         // return config;
-    //     }
-    // }
 }

@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "MapsterConsoleExample/1.0.0": {
         "dependencies": {
-          "Mapster": "7.2.0",
-          "Mapster.Core": "1.2.0"
+          "Mapster": "7.2.0"
         },
         "runtime": {
           "MapsterConsoleExample.dll": {}

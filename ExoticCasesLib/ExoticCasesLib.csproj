@@ -1,17 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>MapsterConsoleExample</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Mapster" Version="7.2.0" />
-        
-<!-- Include this INSTEAD of "Mapster" only when don't use TypeAdapterConfig (in IRegister.Register())-->
-<!-- <PackageReference Include="Mapster.Core" Version="1.2.0" />-->
-    
+        <PackageReference Include="Mapster" Version="7.2.0" />
+        <PackageReference Include="Mapster.Core" Version="1.2.0" />
     </ItemGroup>
 
     <!-- Commands sequence for Mapster-generation call: "dotnet msbuild -t:Mapster" (for details see https://github.com/MapsterMapper/Mapster/wiki/Mapster.Tool) -->

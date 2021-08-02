@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerivedMappingConfigLib", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesLib", "EntitiesLib\EntitiesLib.csproj", "{288BB888-1AC1-4A16-B32B-D58C0F71BC62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoticCasesLib", "ExoticCasesLib\ExoticCasesLib.csproj", "{BA3AAB22-07C2-49D4-A98D-4EC1F2E998C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{288BB888-1AC1-4A16-B32B-D58C0F71BC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{288BB888-1AC1-4A16-B32B-D58C0F71BC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{288BB888-1AC1-4A16-B32B-D58C0F71BC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3AAB22-07C2-49D4-A98D-4EC1F2E998C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3AAB22-07C2-49D4-A98D-4EC1F2E998C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3AAB22-07C2-49D4-A98D-4EC1F2E998C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3AAB22-07C2-49D4-A98D-4EC1F2E998C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

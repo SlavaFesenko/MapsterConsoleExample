@@ -1,6 +1,6 @@
 ﻿using Mapster;
 
-namespace ExoticCasesLib
+namespace ExoticCasesConsole.ShadowObjectMapping
 {
     // [Mapper]
     public interface IUserMapper

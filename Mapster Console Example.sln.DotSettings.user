@@ -1,2 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=288bb888_002D1ac1_002D4a16_002Db32b_002Dd58c0f71bc62_0023EntitiesLib/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=63be4f53_002D3521_002D4e7e_002Dba15_002D5bfc0c9ca23b_0023MapsterConsoleExample/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=970b0239_002De44a_002D482f_002Daaf7_002Dd97f3d3e49d2_0023BaseMappingConfigLib/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=ab2424dc_002Daeb8_002D423e_002D815a_002D8de06dcd16e2_0023DerivedMappingConfigLib/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Mapster/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
